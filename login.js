@@ -1,4 +1,4 @@
-import { finduserbymail } from "../controllers/database.js";
+import { finduserbymail } from "database.js";
 
 // DOM
 const mailInput = document.getElementById("mail");
