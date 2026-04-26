@@ -26,7 +26,7 @@ function handleSubmit() {
                
                 sessionStorage.setItem("currentUser", JSON.stringify(user));
 
-                document.location = "dashboard.html";
+                document.location = "./dashboard.html";
             } else {
                 alert("Bad credentials.");
                 submitBtn.textContent = "Se connecter";
